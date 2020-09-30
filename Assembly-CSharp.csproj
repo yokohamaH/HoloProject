@@ -54,6 +54,7 @@
      <Compile Include="Assets\script\macaer\OnOffCube.cs" />
      <Compile Include="Assets\script\perimeter\CameraMoved.cs" />
      <Compile Include="Assets\script\perimeter\GetMainCamera.cs" />
+     <Compile Include="Assets\script\WebCam.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\test.xml" />
      <None Include="Assets\Bench\ReadMe.txt" />
  <Reference Include="Unity.Timeline.Editor">

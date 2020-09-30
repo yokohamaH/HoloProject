@@ -65,35 +65,35 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.caw">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\88\88eabf69df6b34c5a36b66202fb4495c.pos">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.ecm">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\88\88eabf69df6b34c5a36b66202fb4495c.rpc.sse">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.iws.sse">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.caw">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.rgb">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.ecm">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.rsc.sse">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.iws.sse">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\68\68831c7ca409c76d75eda7b865922fca.vis">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.rgb">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f658f9020bba1205710e331cdfd945de.pos">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.rsc.sse">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f658f9020bba1205710e331cdfd945de.rpc.sse">
+    <None Include="$(MSBuildThisFileDirectory)Data\GI\level0\f6\f6c3a8ae074f719db5656570ebcc5506.vis">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>

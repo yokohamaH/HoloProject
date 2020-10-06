@@ -66,7 +66,13 @@ extern void CameraMoved__ctor_m38E229CE815858D7FE17C36AA1007D5B02ED1378 ();
 extern void GetMainCamera_Start_m9D9631BB28287D15535933634150D6C56A7A8417 ();
 // 0x00000017 System.Void GetMainCamera::.ctor()
 extern void GetMainCamera__ctor_m35BFDD6ADE310C124E43840AA090ACA3A6510970 ();
-static Il2CppMethodPointer s_methodPointers[23] = 
+// 0x00000018 System.Void WebCam::Start()
+extern void WebCam_Start_m877DC351C8EDB92D20D99032DAD60B425A27242C ();
+// 0x00000019 System.Void WebCam::.ctor()
+extern void WebCam__ctor_mC73E06C84C00E91B033FDF2749F45D08AB287F4A ();
+// 0x0000001A System.Void WebCam::.cctor()
+extern void WebCam__cctor_mA4973F76065CF5339073BE0551008C662DCAE442 ();
+static Il2CppMethodPointer s_methodPointers[26] = 
 {
 	CameraFocusController_Start_mA6A7254FB856A728D3ED19C083C33096F2C941FF,
 	CameraFocusController_StartAfterVuforia_m7CED2F674F9B5A0CB1069AD997CEC83EA5D3C450,
@@ -91,8 +97,11 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	CameraMoved__ctor_m38E229CE815858D7FE17C36AA1007D5B02ED1378,
 	GetMainCamera_Start_m9D9631BB28287D15535933634150D6C56A7A8417,
 	GetMainCamera__ctor_m35BFDD6ADE310C124E43840AA090ACA3A6510970,
+	WebCam_Start_m877DC351C8EDB92D20D99032DAD60B425A27242C,
+	WebCam__ctor_mC73E06C84C00E91B033FDF2749F45D08AB287F4A,
+	WebCam__cctor_mA4973F76065CF5339073BE0551008C662DCAE442,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[26] = 
 {
 	23,
 	23,
@@ -117,12 +126,15 @@ static const int32_t s_InvokerIndices[23] =
 	23,
 	23,
 	23,
+	23,
+	23,
+	3,
 };
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	26,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

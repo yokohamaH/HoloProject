@@ -271,6 +271,7 @@ IL2CPP_EXTERN_C const uint32_t PCMSetPositionCallback_BeginInvoke_m88CDF70D75854
 IL2CPP_EXTERN_C const uint32_t SampleFramesHandler_BeginInvoke_mE516B77CCC50738663D10DDD2D7BDB4391FDFF92_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WebCamDevice_tA545BEDFAFD78866911F4837B8406845541B8F54_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WebCamDevice_tA545BEDFAFD78866911F4837B8406845541B8F54_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t WebCamTexture__ctor_m4D851305E5E3D7B24F01F5BE6918959A04108A70_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WebCamTexture__ctor_mA132E1976B248264D5AD01A1D45254FCF070D241_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -3087,6 +3088,25 @@ IL2CPP_EXTERN_C  String_t* WebCamDevice_get_name_m4D7362BB29DC20B7C8EF47759A09D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.WebCamTexture::.ctor(System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebCamTexture__ctor_m4D851305E5E3D7B24F01F5BE6918959A04108A70 (WebCamTexture_tEC97A7A0A101B159FEC9A3E95B14E41DD84EFD73 * __this, int32_t ___requestedWidth0, int32_t ___requestedHeight1, int32_t ___requestedFPS2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WebCamTexture__ctor_m4D851305E5E3D7B24F01F5BE6918959A04108A70_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Texture_t387FE83BB848001FD06B14707AEA6D5A0F6A95F4_il2cpp_TypeInfo_var);
+		Texture__ctor_m19850F4654F76731DD82B99217AD5A2EB6974C6C(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___requestedWidth0;
+		int32_t L_1 = ___requestedHeight1;
+		int32_t L_2 = ___requestedFPS2;
+		WebCamTexture_Internal_CreateWebCamTexture_mE80CEFDA08815EEF5581C8385462887A62D84BB5(__this, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.WebCamTexture::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebCamTexture__ctor_mA132E1976B248264D5AD01A1D45254FCF070D241 (WebCamTexture_tEC97A7A0A101B159FEC9A3E95B14E41DD84EFD73 * __this, const RuntimeMethod* method)
 {
